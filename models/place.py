@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ Place Module for HBNB project """
 from models.base_model import BaseModel
-
+from sqlalchemy.ext.declarative import declarative_base
 
 class Place(BaseModel):
     """ A place to stay """
